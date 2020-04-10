@@ -1,0 +1,24 @@
+import { StyleSheet } from 'react-native'
+import { APP_COLORS } from '../../styles/colors'
+
+export const style = StyleSheet.create({
+    buttonChangeStatus: {
+        backgroundColor: APP_COLORS.primaryAction,
+    },
+    buttonDelete: { 
+        backgroundColor:'red',
+    },
+    modal: { 
+        backgroundColor: 'white', 
+        height: 200, 
+        justifyContent: 'space-around' 
+    },
+    buttonView: { 
+        flexDirection: 'row',
+        alignItems: 'center'
+    },
+    textView: {
+        alignItems: 'center', 
+        justifyContent: 'center'
+    }
+});
